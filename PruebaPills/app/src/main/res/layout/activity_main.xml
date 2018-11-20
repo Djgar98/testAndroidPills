@@ -14,24 +14,25 @@
         android:textColor="#000000"
         android:textSize="20sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="110dp"
-        tools:layout_editor_absoluteY="165dp"
-        tools:ignore="MissingConstraints">
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp">
 
     </android.support.v7.widget.AppCompatTextView>/
 
 
     <android.support.v7.widget.AppCompatTextView
 
+        android:id="@+id/appCompatTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="hola "
         android:textColor="#000000"
         android:textSize="20sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="110dp"
-        tools:layout_editor_absoluteY="265dp"
-        tools:ignore="MissingConstraints">
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="293dp"
+        tools:layout_editor_absoluteY="58dp">
 
     </android.support.v7.widget.AppCompatTextView>/
 
@@ -43,9 +44,9 @@
         android:textColor="#000000"
         android:textSize="20sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="110dp"
-        tools:layout_editor_absoluteY="220dp"
-        tools:ignore="MissingConstraints">
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="43dp">
 
     </android.support.v7.widget.AppCompatTextView>/
 
@@ -61,9 +62,27 @@
         android:text="presiona"
         app:layout_constraintBottom_toTopOf="@+id/leo"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0"></android.support.v7.widget.AppCompatButton>
+        app:layout_constraintVertical_bias="0.0"></android.support.v7.widget.AppCompatButton>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="casual"
+        android:text="Hello World para los queno saben español"
+        android:textColor="#000"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appCompatTextView" />
+
 
 </android.support.constraint.ConstraintLayout>
