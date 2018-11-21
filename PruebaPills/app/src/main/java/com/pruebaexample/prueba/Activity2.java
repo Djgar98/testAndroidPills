@@ -19,6 +19,8 @@ public class Activity2 extends AppCompatActivity {
             public void onClick(View v) {
                 Intent i = new Intent(Activity2.this,MainActivity.class);
                 startActivity(i);
+
+                //Comentario
             }
         });
     }
