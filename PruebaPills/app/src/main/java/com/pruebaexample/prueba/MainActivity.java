@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
                  Intent i = new Intent(MainActivity.this,Activity2.class);
                  startActivity(i);
                  //Danny
+                 //comelon
              }
          });
 
